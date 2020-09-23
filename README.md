@@ -18,3 +18,8 @@ The LED matrix board uses Würth 150141RV73100 LEDs. These are bicolor-LEDs but 
 The landing pads for the LEDs have been reduced to a minimum to hide the pads underneath the LEDs. All PCB tracks are on the back side of the PCB. 1206 0-Ohms resistors are used instead of vias to cross tracks.
 ![LED matrix front side](leds/leds.jpg)
 ![LED matrix back side](leds/leds-bot.jpg)
+
+## matrixctl v2 board ##
+The part number of the micro:bit socket is PIS-1240. The Micro-USB connector is a Molex 105017-0001. You can get these parts and all additional components from digi-key.
+![matrixctl v2](matrixctl-v2/matrixctl.jpg)
+If you do not want to use the micro:bit socket you can also connect the micro:bit or a Calliope Mini to the pin header of the PCB. You need to connect I²C (SCL and SDA), 3V and GND.
