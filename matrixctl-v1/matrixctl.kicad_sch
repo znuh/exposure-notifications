@@ -1703,7 +1703,7 @@
     (property "Reference" "C101" (id 0) (at 92.3289 58.5406 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "22u/10V" (id 1) (at 92.329 60.839 0)
+    (property "Value" "33u/10V" (id 1) (at 92.329 60.839 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" (id 2) (at 96.215 63.5 0)
@@ -1980,7 +1980,7 @@
       (reference "#PWR0118") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/55938adc-8b31-40b2-bf95-6c3e624a32f2"
-      (reference "C101") (unit 1) (value "22u/10V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
+      (reference "C101") (unit 1) (value "33u/10V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
     )
     (path "/ef27c1dd-5522-490f-b6dd-9a9950ca1e1d"
       (reference "C102") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")

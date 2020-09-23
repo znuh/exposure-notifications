@@ -361,7 +361,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1358c5eb-f672-4c91-8ae4-ff46b4b7f25e)
     )
-    (fp_text value "22u/10V" (at 0 2.35 90) (layer "F.Fab")
+    (fp_text value "33u/10V" (at 0 2.35 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c5c5fe09-94ec-4610-bedc-bbb1a4feeba9)
     )
