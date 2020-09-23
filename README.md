@@ -22,6 +22,6 @@ The landing pads for the LEDs have been reduced to a minimum to hide the pads un
 ## matrixctl v2 board ##
 The part number of the micro:bit socket is PIS-1240. The Micro-USB connector is a Molex 105017-0001. You can get these parts and all additional components from digi-key.
 
-Following a recommendation from the IS31FL3738 datasheet the board includes a Tantalum Capacitor to avoid audible noise produced by ceramics capacitors through the [piezoelectric effect](https://product.tdk.com/en/contact/faq/31_singing_capacitors_piezoelectric_effect.pdf). Tantalum is a conflict mineral. I've chosen a Kemet T495B336K010ATE450 because Kemet is a sane choice in general and their handling of the issue sounds ok.
+Following a recommendation from the IS31FL3738 datasheet the board includes a Tantalum Capacitor to avoid audible noise produced by ceramics capacitors through the [piezoelectric effect](https://product.tdk.com/en/contact/faq/31_singing_capacitors_piezoelectric_effect.pdf). Tantalum is a conflict resource. I've chosen a Kemet T495B336K010ATE450 because Kemet is a sane choice in general and their handling of the issue sounds ok.
 ![matrixctl v2](matrixctl-v2/matrixctl.jpg)
 If you do not want to use the micro:bit socket you can also connect the micro:bit or a Calliope Mini to the pin header of the PCB. You need to connect I²C (SCL and SDA), 3V and GND.
