@@ -108,7 +108,7 @@
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
         0.25,
@@ -383,7 +383,7 @@
   },
   "sheets": [
     [
-      "f34f7c56-eaed-446d-8e31-8dcd91765292",
+      "1bd3825a-d792-470b-a14d-7df8dfd9126e",
       ""
     ]
   ],

@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "5.99.0-unknown-e376750~101~ubuntu19.10.1"
+      "Version": "5.99.0-unknown-acf13a186~104~ubuntu20.04.1"
     },
-    "CreationDate": "2020-06-25T20:18:14+02:00"
+    "CreationDate": "2020-09-23T10:38:41+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -39,6 +39,16 @@
     {
       "Path": "leds-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "leds-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "leds-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
