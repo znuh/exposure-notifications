@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "is31fl3738")(type "KiCad")(uri "${KIPRJMOD}/is31fl3738.kicad_sym")(options "")(descr ""))
+  (lib (name "ap3428")(type "KiCad")(uri "${KIPRJMOD}/ap3428.kicad_sym")(options "")(descr ""))
+  (lib (name "bbc_microbit")(type "KiCad")(uri "${KIPRJMOD}/bbc_microbit.kicad_sym")(options "")(descr ""))
+)
