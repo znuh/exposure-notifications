@@ -1,5 +1,5 @@
-# exposure-notifications
-Visualizer for Covid-19 Exposure Notifications
+# Exposure Notifications
+Printed Circuit Boards for the Covid-19 Exposure Notifications Visualizer
 
 To remake Exposure Notifications you need to get/make four things:
 - a BBC micro:bit or Calliope Mini with the [microbit-corona-scanner](https://github.com/znuh/microbit-corona-scanner) installed
