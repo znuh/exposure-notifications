@@ -12,3 +12,9 @@ To remake Exposure Notifications you need to get/make four things:
 
 The printed circuit board designs are made with a **Nightly Development Build** of [KiCAD](https://kicad-pcb.org/).
 If you want to open/edit them you also need a recent Nightly Development Build. If you just want to use the PCBs unmodified you can also use the gerber-files from the gerber-subdirectories.
+
+## LED matrix board
+The LED matrix board uses Würth 150141RV73100 LEDs. These are bicolor-LEDs but only the red LED is used.
+The landing pads for the LEDs have been reduced to a minimum to hide the pads underneath the LEDs. All PCB tracks are on the back side of the PCB. 1206 0-Ohms resistors are used instead of vias to cross tracks.
+![LED matrix front side](leds/leds.jpg)
+![LED matrix back side](leds/leds-bot.jpg)
