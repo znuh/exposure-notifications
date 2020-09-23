@@ -1238,7 +1238,7 @@
     )
   )
 
-  (gr_text "matrixctl v2\nhunz 2020" (at 137.9 106) (layer "F.SilkS") (tstamp d297342e-4afd-4e7c-a052-cb0b1316b032)
+  (gr_text "matrixctl v1\nhunz 2020" (at 137.9 106) (layer "F.SilkS") (tstamp d297342e-4afd-4e7c-a052-cb0b1316b032)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 96.52 104.335) (end 96.52 119.575) (layer "Edge.Cuts") (width 0.05) (tstamp 2a9bff9d-eac9-4234-b36c-4121513346bc))
