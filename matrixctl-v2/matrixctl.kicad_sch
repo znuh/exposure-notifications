@@ -2310,7 +2310,7 @@
     (property "Reference" "C1" (id 0) (at 44.0689 161.4106 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22u" (id 1) (at 44.069 163.709 0)
+    (property "Value" "10u" (id 1) (at 44.069 163.709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 46.025 166.37 0)
@@ -2622,7 +2622,7 @@
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
     (path "/d1ea1858-ca89-4b7d-8ee8-e728aaa548fb"
-      (reference "C1") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/dcf3bb4f-4c61-41a5-afcc-dfab8c6540a5"
       (reference "C2") (unit 1) (value "22p") (footprint "Capacitor_SMD:C_0603_1608Metric")
