@@ -1,11 +1,18 @@
-(kicad_sch (version 20200618) (host eeschema "5.99.0-unknown-476558e~101~ubuntu19.10.1")
+(kicad_sch (version 20200828) (generator eeschema)
 
   (page 1 1)
 
   (paper "A4")
 
+  (title_block
+    (title "Exposure Notifications LED matrix control")
+    (date "2020-09-23")
+    (rev "1b")
+    (company "hunz <hunz@mailbox.org>")
+  )
+
   (lib_symbols
-    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide)
+    (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -37,7 +44,7 @@
         )
       )
     )
-    (symbol "Connector:USB_B_Micro"
+    (symbol "Connector:USB_B_Micro" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -5.08 11.43 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -84,31 +91,60 @@
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.905 2.159) (xy 0.635 2.159))
+          (pts
+            (xy -1.905 2.159)
+            (xy 0.635 2.159)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429))
+          (pts
+            (xy -3.175 2.159)
+            (xy -2.54 2.159)
+            (xy -1.27 3.429)
+            (xy -0.635 3.429)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889))
+          (pts
+            (xy -2.54 2.159)
+            (xy -1.905 2.159)
+            (xy -1.27 0.889)
+            (xy 0 0.889)
+          )
           (stroke (width 0.254)) (fill (type none))
         )
         (polyline
-          (pts (xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794))
+          (pts
+            (xy 0.635 2.794)
+            (xy 0.635 1.524)
+            (xy 1.905 2.159)
+            (xy 0.635 2.794)
+          )
           (stroke (width 0.254)) (fill (type outline))
         )
         (polyline
-          (pts (xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826)
-               (xy -4.318 5.588)
+          (pts
+            (xy -4.318 5.588)
+            (xy -1.778 5.588)
+            (xy -2.032 4.826)
+            (xy -4.064 4.826)
+            (xy -4.318 5.588)
           )
           (stroke (width 0)) (fill (type outline))
         )
         (polyline
-          (pts (xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572)
-               (xy -1.651 4.572) (xy -1.651 4.826) (xy -1.397 5.588) (xy -1.397 5.842)
-               (xy -4.699 5.842)
+          (pts
+            (xy -4.699 5.842)
+            (xy -4.699 5.588)
+            (xy -4.445 4.826)
+            (xy -4.445 4.572)
+            (xy -1.651 4.572)
+            (xy -1.651 4.826)
+            (xy -1.397 5.588)
+            (xy -1.397 5.842)
+            (xy -4.699 5.842)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -140,7 +176,7 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_01x08" (pin_names hide)
+    (symbol "Connector_Generic:Conn_01x08" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 10.16 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -224,7 +260,7 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_02x05_Odd_Even" (pin_names hide)
+    (symbol "Connector_Generic:Conn_02x05_Odd_Even" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -322,7 +358,7 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254))
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -346,11 +382,17 @@
       )
       (symbol "C_0_1"
         (polyline
-          (pts (xy -2.032 -0.762) (xy 2.032 -0.762))
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.032 0.762) (xy 2.032 0.762))
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
           (stroke (width 0.508)) (fill (type none))
         )
       )
@@ -365,7 +407,7 @@
         )
       )
     )
-    (symbol "Device:CP" (pin_numbers hide) (pin_names (offset 0.254))
+    (symbol "Device:CP" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -395,11 +437,17 @@
           (stroke (width 0)) (fill (type outline))
         )
         (polyline
-          (pts (xy -1.778 2.286) (xy -0.762 2.286))
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.27 2.794) (xy -1.27 1.778))
+          (pts
+            (xy -1.27 2.794)
+            (xy -1.27 1.778)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -414,7 +462,7 @@
         )
       )
     )
-    (symbol "Device:Ferrite_Bead" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:Ferrite_Bead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (id 0) (at -3.81 0.635 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -438,16 +486,26 @@
       )
       (symbol "Ferrite_Bead_0_1"
         (polyline
-          (pts (xy 0 -1.27) (xy 0 -1.2192))
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -1.2192)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 1.27) (xy 0 1.2954))
+          (pts
+            (xy 0 1.27)
+            (xy 0 1.2954)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159)
-               (xy -2.7686 0.4064)
+          (pts
+            (xy -2.7686 0.4064)
+            (xy -1.7018 2.2606)
+            (xy 2.7686 -0.3048)
+            (xy 1.6764 -2.159)
+            (xy -2.7686 0.4064)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -463,7 +521,7 @@
         )
       )
     )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0))
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (id 0) (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -501,7 +559,7 @@
         )
       )
     )
-    (symbol "Diode:BAT48JFILM" (pin_numbers hide) (pin_names hide)
+    (symbol "Diode:BAT48JFILM" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -525,16 +583,29 @@
       )
       (symbol "BAT48JFILM_0_1"
         (polyline
-          (pts (xy 1.27 0) (xy -1.27 0))
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27))
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
           (stroke (width 0.2032)) (fill (type none))
         )
         (polyline
-          (pts (xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-               (xy -0.635 -1.27) (xy -0.635 -0.635)
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635)
           )
           (stroke (width 0.2032)) (fill (type none))
         )
@@ -550,7 +621,7 @@
         )
       )
     )
-    (symbol "Regulator_Linear:MCP1703A-3302_SOT23" (pin_names (offset 0.254))
+    (symbol "Regulator_Linear:MCP1703A-3302_SOT23" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -592,7 +663,7 @@
         )
       )
     )
-    (symbol "is31fl3738:IS31FL3738" (pin_names (offset 0.508))
+    (symbol "is31fl3738:IS31FL3738" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -13.97 -33.02 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
@@ -732,7 +803,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0))
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -753,8 +824,13 @@
       )
       (symbol "GND_0_1"
         (polyline
-          (pts (xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54)
-               (xy -1.27 -1.27) (xy 0 -1.27)
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
           )
           (stroke (width 0)) (fill (type none))
         )
@@ -766,7 +842,7 @@
         )
       )
     )
-    (symbol "power:VBUS" (power) (pin_names (offset 0))
+    (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -787,15 +863,24 @@
       )
       (symbol "VBUS_0_1"
         (polyline
-          (pts (xy -0.762 1.27) (xy 0 2.54))
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 0) (xy 0 2.54))
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
           (stroke (width 0)) (fill (type none))
         )
         (polyline
-          (pts (xy 0 2.54) (xy 0.762 1.27))
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
           (stroke (width 0)) (fill (type none))
         )
       )
@@ -808,34 +893,34 @@
     )
   )
 
-  (junction (at 67.31 176.53) (diameter 0) (color 0 0 0 0))
-  (junction (at 67.31 179.07) (diameter 0) (color 0 0 0 0))
-  (junction (at 67.31 181.61) (diameter 0) (color 0 0 0 0))
-  (junction (at 67.31 184.15) (diameter 0) (color 0 0 0 0))
-  (junction (at 82.55 74.93) (diameter 0) (color 0 0 0 0))
-  (junction (at 82.55 93.98) (diameter 0) (color 0 0 0 0))
-  (junction (at 88.9 74.93) (diameter 0) (color 0 0 0 0))
-  (junction (at 88.9 91.44) (diameter 0) (color 0 0 0 0))
-  (junction (at 95.25 55.88) (diameter 0) (color 0 0 0 0))
-  (junction (at 95.25 74.93) (diameter 0) (color 0 0 0 0))
-  (junction (at 95.25 88.9) (diameter 0) (color 0 0 0 0))
-  (junction (at 101.6 86.36) (diameter 0) (color 0 0 0 0))
-  (junction (at 104.14 55.88) (diameter 0) (color 0 0 0 0))
-  (junction (at 110.49 55.88) (diameter 0) (color 0 0 0 0))
-  (junction (at 119.38 55.88) (diameter 0) (color 0 0 0 0))
-  (junction (at 119.38 71.12) (diameter 0) (color 0 0 0 0))
-  (junction (at 121.92 176.53) (diameter 0) (color 0 0 0 0))
-  (junction (at 121.92 179.07) (diameter 0) (color 0 0 0 0))
-  (junction (at 121.92 181.61) (diameter 0) (color 0 0 0 0))
-  (junction (at 121.92 184.15) (diameter 0) (color 0 0 0 0))
-  (junction (at 127 63.5) (diameter 0) (color 0 0 0 0))
-  (junction (at 165.1 55.88) (diameter 0) (color 0 0 0 0))
-  (junction (at 196.85 137.16) (diameter 0) (color 0 0 0 0))
-  (junction (at 208.28 144.78) (diameter 0) (color 0 0 0 0))
-  (junction (at 219.71 137.16) (diameter 0) (color 0 0 0 0))
-  (junction (at 227.33 137.16) (diameter 0) (color 0 0 0 0))
-  (junction (at 250.19 105.41) (diameter 0) (color 0 0 0 0))
-  (junction (at 264.16 156.21) (diameter 0) (color 0 0 0 0))
+  (junction (at 67.31 176.53) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 67.31 179.07) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 67.31 181.61) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 67.31 184.15) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 82.55 74.93) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 82.55 93.98) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 88.9 74.93) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 88.9 91.44) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 95.25 55.88) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 95.25 74.93) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 95.25 88.9) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 101.6 86.36) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 104.14 55.88) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 110.49 55.88) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 119.38 55.88) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 119.38 71.12) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 121.92 176.53) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 121.92 179.07) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 121.92 181.61) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 121.92 184.15) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 127 63.5) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 165.1 55.88) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 196.85 137.16) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 208.28 144.78) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 219.71 137.16) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 227.33 137.16) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 250.19 105.41) (diameter 1.016) (color 0 0 0 0))
+  (junction (at 264.16 156.21) (diameter 1.016) (color 0 0 0 0))
 
   (wire (pts (xy 66.04 74.93) (xy 82.55 74.93))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -1841,130 +1926,130 @@
 
   (symbol_instances
     (path "/9454c87a-52bc-4195-bd0e-cca3a739d76d"
-      (reference "#PWR0101") (unit 1)
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
     (path "/eb1d462f-f080-4087-8800-45abf3ce1f54"
-      (reference "#PWR0102") (unit 1)
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/e2472100-54ad-413d-b0c8-4d7243c34633"
-      (reference "#PWR0103") (unit 1)
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/aa18c774-e045-42f6-b3c3-0d010699f05a"
-      (reference "#PWR0104") (unit 1)
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/19b24523-4180-4417-8b45-41ea7fb4e2e9"
-      (reference "#PWR0105") (unit 1)
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/8d63f91e-fc89-4de8-9ec5-27da6609ff7a"
-      (reference "#PWR0106") (unit 1)
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
     (path "/ecf39cf6-9fa6-431b-806b-ca97e15e3ce4"
-      (reference "#PWR0107") (unit 1)
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/770fb65d-4f78-4f2a-ad64-cf50aa648a9d"
-      (reference "#PWR0108") (unit 1)
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/5a5f4259-3712-42bb-acc6-97d22cb1a665"
-      (reference "#PWR0109") (unit 1)
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
     (path "/56b2384d-a9d4-4172-99b3-bc666b0c58e5"
-      (reference "#PWR0110") (unit 1)
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/12411125-dea1-4833-a6d7-b17e10287d3a"
-      (reference "#PWR0111") (unit 1)
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
     (path "/4e27b261-7b6d-4e5c-925b-357656913394"
-      (reference "#PWR0112") (unit 1)
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
     (path "/083c6668-e95e-487d-9231-74eb4df1d5f1"
-      (reference "#PWR0113") (unit 1)
+      (reference "#PWR0113") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/d06517f0-5a02-4937-9d1c-f00763a6511d"
-      (reference "#PWR0114") (unit 1)
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
     (path "/7be7f58c-057a-437b-9a56-e4d1510bffe9"
-      (reference "#PWR0115") (unit 1)
+      (reference "#PWR0115") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/b6c16dae-74b9-40d0-a1dc-ce4ad37880be"
-      (reference "#PWR0116") (unit 1)
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
     (path "/af8aadb7-b89e-46bc-a3b7-403327b05005"
-      (reference "#PWR0117") (unit 1)
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
     (path "/af9676df-f151-4808-a11e-0350665374a9"
-      (reference "#PWR0118") (unit 1)
+      (reference "#PWR0118") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/55938adc-8b31-40b2-bf95-6c3e624a32f2"
-      (reference "C101") (unit 1)
+      (reference "C101") (unit 1) (value "22u/10V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B")
     )
     (path "/ef27c1dd-5522-490f-b6dd-9a9950ca1e1d"
-      (reference "C102") (unit 1)
+      (reference "C102") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/64649456-3094-4c10-a629-8c75503f1f7f"
-      (reference "C103") (unit 1)
+      (reference "C103") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/7967549e-e396-42e7-8936-cb162e0c314b"
-      (reference "C104") (unit 1)
+      (reference "C104") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/21642e41-e714-4488-abaf-f29d01aba9b5"
-      (reference "C105") (unit 1)
+      (reference "C105") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/ed64e3ce-3137-4404-9e80-820d23ff7415"
-      (reference "C106") (unit 1)
+      (reference "C106") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d69b81d9-0232-44b3-b93b-ef43e357500f"
-      (reference "C107") (unit 1)
+      (reference "C107") (unit 1) (value "2.2u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/7ab1ad55-f55b-446c-ac8f-276825e6ebca"
-      (reference "D101") (unit 1)
+      (reference "D101") (unit 1) (value "BAT60A") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/762573f6-2790-458c-b021-703641028d26"
-      (reference "FB101") (unit 1)
+      (reference "FB101") (unit 1) (value "600R/1A/0.1") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/f17eb51e-2535-45df-9937-42d91f1d929e"
-      (reference "FB102") (unit 1)
+      (reference "FB102") (unit 1) (value "600R/1A/0.1") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/65b29c25-b515-440e-9648-9ba4b65c197c"
-      (reference "J101") (unit 1)
+      (reference "J101") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical")
     )
     (path "/972eefa1-7ece-4426-a205-795dd25d5fcd"
-      (reference "J102") (unit 1)
+      (reference "J102") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical")
     )
     (path "/a8be33d5-30b0-41bf-b291-8aaab2561a51"
-      (reference "J103") (unit 1)
+      (reference "J103") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/a51b4add-57da-4987-bc38-ab82541a76e7"
-      (reference "J104") (unit 1)
+      (reference "J104") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
     )
     (path "/df9e20e9-9adf-4726-9964-40405a162785"
-      (reference "R101") (unit 1)
+      (reference "R101") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/72f96f43-7ed4-4204-961c-fbf9adaa1d68"
-      (reference "R102") (unit 1)
+      (reference "R102") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00c5c7f1-f84b-4d30-a87d-f86260f6fe39"
-      (reference "R103") (unit 1)
+      (reference "R103") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d7db4cf9-a6f8-4b89-98e9-eea30d365e68"
-      (reference "R104") (unit 1)
+      (reference "R104") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/1bfc4f97-b24e-4ef3-a416-9793219188db"
-      (reference "R105") (unit 1)
+      (reference "R105") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/9292ac6b-3cba-4c19-b04c-bb33c4dca5b7"
-      (reference "R106") (unit 1)
+      (reference "R106") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/b9b31b35-2281-4437-8e04-a7baa884d29a"
-      (reference "R112") (unit 1)
+      (reference "R112") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/ec592b60-d549-4920-b1f9-347530187e29"
-      (reference "TP101") (unit 1)
+      (reference "TP101") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/1662c434-aaf4-43c3-a07a-8121c507128f"
-      (reference "U101") (unit 1)
+      (reference "U101") (unit 1) (value "IS31FL3738") (footprint "ledmatrix:QFN-28-1EP_5x5mm_P0.5mm_EP3.5x3.5mm_ThermalVias")
     )
     (path "/2a408479-1dce-4497-9d5a-b8f523cfde6a"
-      (reference "U102") (unit 1)
+      (reference "U102") (unit 1) (value "AP7313-33SR") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
   )
 )

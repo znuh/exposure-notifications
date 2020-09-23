@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Exposure Notifications LED matrix")
+    (rev "1b")
+    (company "hunz <hunz@mailbox.org>")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_02x05_Odd_Even" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 1.27 7.62 0)
@@ -733,7 +739,7 @@
   )
 
   (text "SW1..6: I_SINK = 672mA\nCS1..8: I_SOURCE = 84mA\n\n=> 5x6 (CS1..5 x SW1..6)"
-    (at 269.24 177.8 0)
+    (at 251.46 156.21 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
   )
 
