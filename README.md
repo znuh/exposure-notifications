@@ -1,5 +1,6 @@
 # Exposure Notifications
-Printed Circuit Boards for the Covid-19 Exposure Notifications Visualizer
+Printed Circuit Boards for the Covid-19 Exposure Notifications Visualizer - 
+[see this for more details](https://znu.nz/exposure_notifications-en)
 
 To remake Exposure Notifications you need to get/make four things:
 - a BBC micro:bit or Calliope Mini with the [microbit-corona-scanner](https://github.com/znuh/microbit-corona-scanner) installed
